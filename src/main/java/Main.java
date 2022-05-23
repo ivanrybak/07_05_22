@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -107,7 +108,17 @@ num.unionString();*/
         }
 
 
+        //ввод чисел через консоль в массив
+Scanner console=new Scanner(System.in);
+        int[]array=new int[10];
+        for (int i = 0; i < 10; i++) {
+            array[i]=console.nextInt();
 
+        }
+        for (int i = 9; i >=0 ; i--) {   //вывод чисел массива в консоль в обратном порядке
+            System.out.println(array[i]);
+
+        }
 
 
 
